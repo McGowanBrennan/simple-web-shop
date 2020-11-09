@@ -1,0 +1,78 @@
+[{
+    "title": "Shrooms",
+    "type": "art",
+    "page": "shrooms",
+    "description": "look at all those mushrooms",
+    "filename": "1.jpg",
+    "height": 300,
+    "width": 300,
+    "price": "$30"
+  },
+    
+  {
+    "title": "Citgo",
+    "type": "art",
+    "page": "citgo",
+    "description": "pastoral scenes from the American heartland",
+    "filename": "2.jpg",
+    "height": 300,
+    "width": 300,
+    "price": "$30"
+  },
+
+  {
+    "title": "Anglerfish",
+    "type": "art",
+    "page": "anglerfish",
+    "description": "this really says a lot about our society",
+    "filename": "3.jpg",
+    "height": 300,
+    "width": 300,
+    "price": "$30"
+  },
+
+  {
+    "title": "Lunch of A Lone Traveler",
+    "page": "traveler",
+    "type": "art",
+    "description": "Georgia O' Keeffe x McDonald's",
+    "filename": "4.jpg",
+    "height": 300,
+    "width": 300,
+    "price": "$30"
+  },
+
+  {
+    "title": "Red fish",
+    "type": "art",
+    "page": "redfish",
+    "description": "idrk what to say about this one",
+    "filename": "0.jpg",
+    "height": 300,
+    "width": 300,
+    "price": "$30"
+  },
+
+  {
+    "title": "Green fish",
+    "type": "art",
+    "page": "greenfish",
+    "description": "yee-haw",
+    "filename": "5.jpg",
+    "height": 300,
+    "width": 300,
+    "price": "$30"
+  },
+
+  {
+    "title": "Big Brain",
+    "type": "art",
+    "page": "bigbrain",
+    "description": "home is where the head is",
+    "filename": "6.jpg",
+    "height": 300,
+    "width": 300,
+    "price": "$30"
+  }
+
+]

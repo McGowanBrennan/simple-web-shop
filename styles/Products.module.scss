@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    height:100vh;
+    color: black;
+    width: 100%;
+    grid-gap: 3px;
+    padding-top: 5%;
+    grid-template-columns: 60% 30%;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+          "a b"
+          "a c"
+          "a d"
+          "a e"
+}
+
+.photo{
+    padding-left: 10%;
+    grid-area: a;
+}
+
+.dimensions{
+    
+    grid-area: b;
+}
+
+
+.medium{
+    grid-area:c;
+}
+
+.created{
+    grid-area:d
+}
+
+.order{
+    color: black;
+    grid-area: e;
+}

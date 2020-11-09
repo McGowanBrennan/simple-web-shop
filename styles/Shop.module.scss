@@ -1,0 +1,58 @@
+.list{
+    color:black;
+    padding-bottom: 5%;
+    
+  text-align: center;
+}
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+.container{
+    display: grid;
+    height:100vh;
+    justify-items: center;
+    width: 100%;
+    grid-gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+          "a f f"
+          "b b b"
+          "c d e"
+}
+
+.terms{
+    align-self:end;
+    grid-area: c;
+  }
+  
+  .about{
+    align-self:end;
+    grid-area: d;
+  }
+  
+  .privacy{
+    align-self:end;
+    grid-area: e;
+  }
+
+.banner{
+    grid-area: a;
+    padding-left:5%;
+    position: fixed;
+    top: 0;
+    text-align: center;
+    align-items: center;
+  justify-content: center;
+}
+.head{
+    align-items: center;
+  justify-content: center;
+    grid-area: b;
+}
+
+.footer{
+    grid-area: c;
+}
