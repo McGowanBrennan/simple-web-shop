@@ -22,15 +22,21 @@ export default function Home() {
       </div>
 
       <div className={styles.privacy}>
-              <h4>Privacy</h4>
+      <Link href="/privacy">
+        <a>Privacy</a>
+        </Link> 
           </div>
 
           <div className={styles.terms}>
-              <h4>Terms</h4>
+          <Link href="/terms">
+        <a>Terms</a>
+        </Link> 
           </div>
 
           <div className={styles.about}>
-              <h4>About</h4>
+          <Link href="/about">
+        <a>About</a>
+        </Link> 
           </div>
       
     </div>

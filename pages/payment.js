@@ -21,7 +21,6 @@ const stripeApiKey = process.env.PUBLISHABLE_KEY;
 // TODO: Head over to https://codesandbox.io/s/311ppyl0m1, fork it, configure
 // with your test mode secret key, and update the following checkout URL using
 // your forked sandbox's ID.
-const checkoutUrl = "https://asdf1234.sse.codesandbox.io/gator/rent/checkout";
 
 class Payment extends React.Component {
     constructor(props){

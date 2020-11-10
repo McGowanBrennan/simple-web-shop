@@ -16,6 +16,7 @@
     "next": "10.0.1",
     "react": "17.0.1",
     "react-dom": "17.0.1",
+    "react-responsive": "^8.1.0",
     "react-stripe-checkout": "^2.6.3",
     "sass": "^1.29.0"
   }
