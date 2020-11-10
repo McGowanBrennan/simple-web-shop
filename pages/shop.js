@@ -3,7 +3,6 @@ import Link from 'next/link'
 import styles from "../styles/Shop.module.scss"
 import styles2 from '../styles/Button.module.sass'
 import { useState, useEffect } from "react"
-import DesktopShop from "../components/DesktopShop"
 
 import { useMediaQuery } from 'react-responsive'
  
